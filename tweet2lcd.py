@@ -4,12 +4,12 @@ import tweepy
 import serial
 
 # Old Spice Spray
-consumer_key="tLfQ407qRp4nTuyI5Hhp0Q"
-consumer_secret="dSCVDjWFppXLvnjQw9WyB5TJYwIfLcTc96zU9GuMA"
+consumer_key = CONSUMER_KEY
+consumer_secret = CONSUMER_SECRET
 
 # @hezhao
-access_key = "15746301-Ctggb9M0hjc6C91mqXQo7DYh06MI8dvEYpWn5Gzys"
-access_secret = "2MSxBN1FkN2tgVCPBddBvOrW1KCeYYx8mckYHTFTdRbPQ" 
+access_key = ACCESS_KEY
+access_secret = ACCESS_SECRET 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
